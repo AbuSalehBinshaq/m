@@ -18,7 +18,7 @@ function changeImage(el) {
 
     function sendInquiry() {
       const msg = encodeURIComponent("مرحبًا، لدي استفسار عن جلابية الأحمر الملكي.");
-      window.open(`https://wa.me/971582868630?text=${msg}`, "_blank");
+      window.open(`https://wa.me/971582868634?text=${msg}`, "_blank");
     }
 
     function showForm() {
@@ -83,7 +83,7 @@ function changeImage(el) {
       // ملاحظة: لإزالة المقاس، احذف السطر "المقاس: ${sizeInput.value}" من الرسالة التالية
       const msg = encodeURIComponent(`طلب جديد:\n  المنتج: جلابية فاخرة – الأحمر الملكي\n  الاسم: ${nameInput.value}\n  رقم الجوال: ${fullPhone}\n  المدينة/العنوان: ${cityInput.value}\n  المقاس: ${sizeInput.value}\n  الكمية: ${quantity}\n  ملاحظات: ${notes || "لا توجد"}`);
 
-      window.open(`https://wa.me/971582868630?text=${msg}`, "_blank");
+      window.open(`https://wa.me/971582868634?text=${msg}`, "_blank");
     }
 
     function adjustQty(amount) {
